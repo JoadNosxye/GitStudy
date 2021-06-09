@@ -1,0 +1,112 @@
+
+/* 左上角用户信息div基本样式-------------------------------------------------*/
+.user-panel{
+	width: 220px;
+	float: left;
+	padding: 0 15px 0 10px;
+	height: 100%;
+	position: relative;
+}
+.user-panel:hover{
+	background-color:#02AED9 ;
+}
+.user-panel>a>p{
+	height: 40px;
+	font-size: 14px;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+/*用户头像div样式*/
+.user-avatar{
+	margin: 5px 9px 0 0;
+	border-radius: 50%;
+}
+.f1{
+	float: left!important;
+}
+
+.user-avatar img{border-radius:50%;border:0px solid #fff;height:38px;width:38px}
+/*用户名称相关css*/
+.top>a>p{display:block;}
+.top>a>p.single{
+	padding-top: 0;
+	line-height: 48px;
+}
+.user-name{display:inline-block;vertical-align:middle;max-width:65px}
+.ellipsis{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+/*名字旁边箭头*/
+/*.icon-angle-down:before{content:"\e661"}*/
+.user-name-angle{
+	margin: 0 0 0 9px;
+	position: absolute;
+	left: 120px;
+	top: 15px;
+	width: 11px;
+	height: 16px;
+}
+.icon-angle-down{}
+/*顶部导航栏中间业务按钮样式----------------------------------*/
+.top-middle-panel
+{
+	position: relative;
+	margin: 0;
+	left: 220px;
+	top: 0;
+	width: 375px;
+	height: 50px;
+	background-color: red;
+}
+ul li{
+	display: inline-block;
+}
+ul li:hover{
+	background-color:#02AED9 ;
+}
+#home
+{
+	left: 220px;
+	top: 0px;
+	width: 48px;
+	height: 50px;
+	position: absolute;	
+}
+.top-middle-li{
+	width: 105px;
+	height: 50px;
+	position: relative;
+}
+.graph
+{
+	background-image: url(../img/eteams_icons.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	
+}
+.h16{
+	height: 16px;
+	width: 16px;
+	margin-top: -3px;
+}
+.graph-home
+{
+	background-position: 0 0;
+}
+.graph-work{
+	background-position:-32px 0 ;
+}
+.graph-reply{
+	background-position:-96px 0 ;
+}
+/*以下是通用样式*/
+img{
+	vertical-align: middle;
+	max-width: 100%;
+	border: 0;
+	box-sizing: content-box;
+}
